@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<?php error_reporting(0); ?>
+<?php include_once('adminpanel/connection.php'); ?>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <title>ABOUT US PAGE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- FONTS FAMILY CDN(ONLINE LINK) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <?php include_once('navbar.php'); ?>
+    <div class="container-fluid" style="margin: 0px; padding: 0px;">
+        <img src="images/tim-unsplash.jpg" class="d-block w-100" alt="...">
+    </div>
+    <!-- col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 -->
+    <div class="container-fluid main1 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center main1-head">ABOUT US</div>
+                <div class="col-12">
+                    <img src="images/border.png" class="main1-head_border">
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 col-xxl-7 main1-left">
+                    <?php
+                        $sel="SELECT * FROM about_us LIMIT 0,1";
+                        $exe=mysqli_query($con,$sel);
+                        while ($fetch=mysqli_fetch_array($exe)) {
+                    ?>
+                    <div class="row mb-4">
+                        <div
+                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main1-left-head mb-3">
+                            <?php echo $fetch['about_title']; ?>
+                        </div>
+                        <div
+                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main2-left-matter">
+                            <div class="row ml-2">
+                                <div class="main1-left-matter-icon">
+                                    <img src="images/like.jpg" width="38" height="35">
+                                </div>
+                                <div class="main1-left-matter-content">
+                                    <p>
+                                        <?php echo $fetch['about_description']; ?>
+                                    </p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php } ?>
+                    <?php
+                        $sel="SELECT * FROM about_us LIMIT 1,1";
+                        $exe=mysqli_query($con,$sel);
+                        while ($fetch=mysqli_fetch_array($exe)) {
+                    ?>
+                    <div class="row mb-4">
+                        <div
+                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main1-left-head mb-3">
+                            <?php echo $fetch['about_title']; ?>
+                        </div>
+                        <div
+                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main2-left-matter">
+                            <div class="row ml-2">
+                                <div class="main1-left-matter-icon">
+                                    <img src="images/service.jpg" width="38" height="35">
+                                </div>
+                                <div class="main1-left-matter-content">
+                                    <p>
+                                        <?php echo $fetch['about_description']; ?>
+                                    </p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php } ?>
+                    <?php
+                        $sel="SELECT * FROM about_us LIMIT 2,1";
+                        $exe=mysqli_query($con,$sel);
+                        while ($fetch=mysqli_fetch_array($exe)) {
+                    ?>
+                    <div class="row mb-4">
+                        <div
+                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main1-left-head mb-3">
+                            <?php echo $fetch['about_title']; ?>
+                        </div>
+                        <div
+                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main2-left-matter">
+                            <div class="row ml-2">
+                                <div class="main1-left-matter-icon">
+                                    <img src="images/quality.jpg" width="38" height="35">
+                                </div>
+                                <div class="main1-left-matter-content">
+                                    <p>
+                                        <?php echo $fetch['about_description']; ?>
+                                    </p>
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php } ?>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                    <div class="main1-right">
+                        <div class="main1-right-image">
+                            <img src="images/why_us2.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <?php include_once('footer.php'); ?>
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+</script>
