@@ -1,0 +1,368 @@
+@media only screen and (min-width:0px) and (max-width: 576px){
+    .carousel-item{
+        height: 125px;
+    }
+
+    #navbarNavDropdown{
+    position: absolute;
+    width: 94%;
+    top: 100%;
+    padding: 10px;
+    background: white;
+    z-index: 999999;
+}
+    .main1{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .main1-left{
+        margin: auto;
+        float: none;
+    }
+    .main2-left-matter{
+        width:340px ;
+        margin: auto;
+    }
+    .main1-left-matter-content{
+        float: none;
+        width: 210px;
+        margin-left: 0px;
+    }
+    .main1-right{
+        width: 200px;
+        height: 185px;
+        border:none;
+        float: right;
+        position: relative;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin: auto;
+    }
+    .main1-right-image{
+        position: absolute;
+        /* right: 19px; */
+        margin: auto;
+        top: 0px;
+        border:5px solid #149157;
+        padding: 1px;
+    }
+    .main1-right-image img{
+        width: 190px;
+        height: 175px;
+    }
+    .main2-c1{
+        width: 190px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .card{
+        width: 190px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .card img{
+        height: 178px;
+    }
+    .con-address{
+        font-size: 12px;
+    }
+    .con-address1{
+        text-align: center;
+        margin-bottom: 20px;
+        border: none;
+    }
+    .con-address2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .main1-head_border{
+        width: 130px;
+    }
+    .contact-main1-head{
+        font-size: 18px;
+    }
+    .nav-colaps{
+        background-color: white;
+    }
+    .contact-main2-r3-L{
+        float: none;
+        margin: auto;
+    }
+    .contact-main2-r3-R{
+        width: 250px;
+        float: none;
+        margin: auto;
+    }
+    .contact-main2-r3-R iframe{
+        height: 150px;
+    }
+    .testimonial-touch-input1{
+        margin-bottom: 20px;
+        width: 250px;
+    }
+    .testimonial-touch-textarea1{
+        width: 250px;
+    }
+    .product_car{
+        width: 70%;
+        margin: auto;
+    }
+    .furniture-image{
+        padding-left: 50px;
+    }
+    .furniture-about ul li{
+        width: 100%;
+        margin: auto;
+        text-align: justify;
+    }
+    .furniture-detail{
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    .furniture-detail-r1{
+        text-align: justify;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .furniture-specification{
+        width: 80%;
+        /* margin: auto; */
+    }
+    .product-detail{
+        font-size: 12px;
+    }
+    .loginbox{
+        width: 50%;
+    }
+    .loginbox-logo{
+        display: none;
+    }
+    .register1-r-input{
+        width: 40%;
+    }
+    .register1-r-input input{
+        width: 190%;
+    }
+    .register1{
+        font-size: 12px;
+    }
+    .register1-r-logo{
+        display: none;
+    }
+    .register1-r-input{
+        color: pink;
+    }
+
+}
+@media only screen and (min-width:576px) and (max-width: 768px){
+    .carousel-item{
+        height: 234px;
+    }
+    #navbarNavDropdown{
+        position: absolute;
+        width: 90%;
+        top: 100%;
+        padding: 10px;
+        background: white;
+        z-index: 999999;
+    }
+    .main1{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .main1-left{
+        margin: auto;
+    }
+    .main2-left-matter{
+        width:340px ;
+        margin: auto;
+    }
+    .main1-left-matter-content{
+        float: none;
+        width: 250px;
+        margin-left: 0px;
+    }
+    .main1-right{
+        width: 280px;
+        height: 350px;
+        float: none;
+        margin: auto;
+    }
+    .main1-right-image img{
+        width: 290px;
+        height: 275px;
+    }
+    .main2-c1{
+        width: 190px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .card{
+        width: 190px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .card img{
+        height: 178px;
+    }
+    .footer-coloumn1{
+        margin-bottom: 50px;
+    }
+    .nav-colaps{
+        background-color: white;
+    }
+    .contact-main2-r3-L{
+        float: none;
+        margin: auto;
+    }
+    .contact-main2-r3-R{
+        width: 350px;
+        float: none;
+        margin: auto;
+    }
+    .contact-main2-r3-R iframe{
+        height: 250px;
+    }
+    .product_car{
+        width: 70%;
+        margin: auto;
+    }
+    .furniture-image{
+        padding-left: 50px;
+    }
+    .furniture-about ul li{
+        width: 100%;
+        text-align: justify;
+    }
+    .furniture-detail{
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+    .furniture-detail-r1{
+        text-align: justify;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .loginbox{
+        width: 400px;
+    }
+    .register1-r-input input{
+        width: 167px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 992px){
+    /* .carousel-item{
+        height: 938px;
+    } */
+    .carousel-item img{
+        height: 450px;
+    }
+    #navbarNavDropdown{
+        position: absolute;
+        width: 85%;
+        top: 100%;
+        padding: 10px;
+        background: white;
+        z-index: 999999;
+    }
+    .main1-left-matter-content{
+        width: 250px;
+        margin-left: 0px;
+    }
+    .main1-right{
+        width: 280px;
+        height: 350px;
+        margin-top: 220px;
+    }
+    .main1-right-image img{
+        width: 290px;
+        height: 275px;
+    }
+    .card{
+        width: 160px;
+    }
+    .card-text{
+        font-size: 10px;
+    }
+    .card img{
+        height: 178px;
+    }
+    .footer-contact-matter{
+        width: 140px !important ;
+        margin-left: 15px;
+        font-size: 12px;
+    }
+    .social-icons1{
+        width: 35px;
+        height: 35px;
+        font-size: 22px; 
+        margin-right: 15px;
+    }
+    .nav-colaps{
+        background-color: white;
+        /* width: 692px; */
+        padding-left: 30px;
+    }
+    .contact-main2-r3-R{
+        width: 400px;
+    }
+    .product_car{
+        width: 250px;
+    }
+    .furniture-image{
+        padding-left: 0px;
+    }
+    .furniture-about ul li{
+        width: 320px;
+    }
+    .furniture-detail{
+        padding-left: 0px;
+    }
+    .register1-r-input input{
+        width: 245px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width: 1200px){
+    .main1-left-matter-content{
+        width: 340px;
+        margin-left: 20px;
+    }
+    .card{
+        width: 180px;
+    }
+    .card-text{
+        font-size: 11px;
+    }
+    .card img{
+        height: 178px;
+    }
+    .contact-main2-r3-R{
+        width: 500px;
+    }
+    .product_car{
+        width: 315px;
+    }
+    .furniture-image{
+        padding-left: 50px;
+    }
+    .furniture-about ul li{
+        width: 420px;
+    }
+    .furniture-detail{
+        padding-left: 0px;
+    }
+}
+@media only screen and (min-width:1200px) and (max-width: 1400px){
+    .main1-left-matter-content{
+        width: 523px;
+        margin-left: 20px;
+    }
+    .card{
+        width: 250px;
+    }
+}
