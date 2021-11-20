@@ -13,14 +13,14 @@
 	$birthday=$_POST['bday'];
 	$user_email=$_POST['email'];
 	$user_contact=$_POST['cnum'];
-	$user_profession=$_POST['uprofession'];
-	$user_website=$_POST['website'];
-	$user_twitter=$_POST['twitter'];
-	$user_instagram=$_POST['instagram'];
-	$user_facebook=$_POST['facebook'];
+	// $user_profession=$_POST['uprofession'];
+	// $user_website=$_POST['website'];
+	// $user_twitter=$_POST['twitter'];
+	// $user_instagram=$_POST['instagram'];
+	// $user_facebook=$_POST['facebook'];
 	$gender=$_POST['gender'];
 	if ($first_name!="" && $last_name!="" && $primary_address!="" && $user_name!="" && $password!="" && 
-		$confirm_password!="" && $birthday!="" && $user_email!="" && $user_contact!="" && $user_profession!="" && 
+		$confirm_password!="" && $birthday!="" && $user_email!="" && $user_contact!="" && 
 		$gender!="") {
 		
 		if($password==$confirm_password) {
@@ -44,11 +44,11 @@
 		user_birthday='$birthday',
 		user_email='$user_email',
 		user_contact='$user_contact',
-		user_profession='$user_profession',
-		user_website='$user_website',
-		user_twitter='$user_twitter',
-		user_instagram='$user_instagram',
-		user_facebook='$user_facebook',
+		-- user_profession='$user_profession',
+		-- user_website='$user_website',
+		-- user_twitter='$user_twitter',
+		-- user_instagram='$user_instagram',
+		-- user_facebook='$user_facebook',
 		user_gender='$gender'";
 		mysqli_query($con,$ins);
 		$_POST=[];
@@ -107,9 +107,9 @@
     <div class="container-fluid main2">
         <div class="container">
             <div class="row mb-5">
-                <div class="col-lg-12 text-center main1-head">Register</div>
+                <div class="col-12 text-center main1-head mt-5 fs-2 fw-bold">Register</div>
                 <div class="col-lg-12">
-                    <img src="images/border.png" class="main1-head_border">
+                    <img src="images/border.png" class="main1-head_border m-auto d-block mt-2">
                 </div>
             </div>
             <div class="row">
@@ -248,7 +248,7 @@
                             </div>
                             <div class="clear"></div>
                         </div>
-                        <div class="register1 mb-3">
+                        <!-- <div class="register1 mb-3">
                             <div class="register1-l">User Profession</div>
                             <div class="register1-r">
                                 <div class="register1-r-logo">
@@ -260,8 +260,8 @@
                                 </div>
                             </div>
                             <div class="clear"></div>
-                        </div>
-                        <div class="register1 mb-3">
+                        </div> -->
+                        <!-- <div class="register1 mb-3">
                             <div class="register1-l">Website</div>
                             <div class="register1-r">
                                 <div class="register1-r-logo">
@@ -312,7 +312,7 @@
                                 </div>
                             </div>
                             <div class="clear"></div>
-                        </div>
+                        </div> -->
 
                         <div class="register1 mb-3">
                             <div class="register1-l">Gender</div>
@@ -328,7 +328,7 @@
                             <div class="clear"></div>
                         </div>
                         <div>
-                            <button type="submit" class="main2-button mt-3">Submit</button>
+                            <button type="submit" class="main2-button text-white border rounded fs-6 text-decoration-none">Submit</button>
                         </div>
                     </form>
                 </div>

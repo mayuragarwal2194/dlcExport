@@ -77,26 +77,26 @@
                 <div class="carousel-item active">
                     <img src="adminpanel/file_upload(slider)/<?php echo $fetch1['slider_image1']; ?>"
                         class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <!-- <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="carousel-item ">
                     <img src="adminpanel/file_upload(slider)/<?php echo $fetch1['slider_image2']; ?>"
                         class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <!-- <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="carousel-item ">
                     <img src="adminpanel/file_upload(slider)/<?php echo $fetch1['slider_image3']; ?>"
                         class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <!-- <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
                         <p>Some representative placeholder content for the first slide.</p>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
@@ -134,7 +134,7 @@
                             <?php echo $fetch['about_title']; ?>
                         </div>
                         <div
-                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main2-left-matter">
+                            class="col-12 main2-left-matter">
                             <div class="row ml-2">
                                 <div class="main1-left-matter-icon border border-2 mt-3 d-flex justify-content-center align-items-center rounded-circle bg-white">
                                     <img src="images/like.png" width="38" height="35">
@@ -159,7 +159,7 @@
                             class="col-12 main1-left-head fs-5 mb-2 fw-bold">
                             <?php echo $fetch['about_title']; ?>
                         </div>
-                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main2-left-matter">
+                        <div class="col-12 main2-left-matter">
                             <div class="row ml-2">
                                 <div class="main1-left-matter-icon border border-2 mt-3 d-flex justify-content-center align-items-center rounded-circle bg-white">
                                     <img src="images/service.png" width="38" height="35">
@@ -185,7 +185,7 @@
                             <?php echo $fetch['about_title']; ?>
                         </div>
                         <div
-                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main2-left-matter">
+                            class="col-12 main2-left-matter">
                             <div class="row ml-2">
                                 <div class="main1-left-matter-icon border border-2 mt-3 d-flex justify-content-center align-items-center rounded-circle bg-white">
                                     <img src="images/quality.png" width="38" height="35">

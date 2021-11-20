@@ -34,9 +34,9 @@
     <div class="container-fluid main2 mb-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center contact-main1-head">Wooden <span> Furniture </span> </div>
+                <div class="text-center contact-main1-head mt-5 fs-2 fw-bold">Wooden <span> Furniture </span> </div>
                 <div class="col-lg-12">
-                    <img src="images/border.png" class="main1-head_border">
+                    <img src="images/border.png" class="main1-head_border m-auto d-block mt-2">
                 </div>
             </div>
             <div class="row mt-5 cards-homepage">

@@ -793,6 +793,9 @@
 	 width: 100%;
 	 overflow: hidden;
 	 white-space: nowrap;
+	 background-color: red;
+	padding: 1rem 0;
+	color: #fff;
 }
  .marquee:hover .marquee__item {
 	 animation-play-state: paused;
@@ -806,17 +809,23 @@
 	 animation: marquee 10s linear infinite;
 }
  @keyframes marquee {
-	 0% {
-		 transform: translateX(0);
+	 from {
+		transform: translateX(100%);
 	}
-	 100% {
+	 to {
 		 transform: translateX(-100%);
 	}
 }
+@keyframes marquee2 {
+	from {
+	  transform: translateX(0%);
+	}
+	to {
+	  transform: translateX(-200%);
+	}
+  }
 .marquee {
-	background-color: red;
-	padding: 1rem 0;
-	color: #fff;
+	
 }
 .news-line{
 	padding: 0px;

@@ -34,9 +34,9 @@
     <div class="container-fluid contact-main1" ; style="border-top: 1px solid lightgrey" ;>
         <div class="container">
             <div class="row mb-5">
-                <div class="col-lg-12 text-center contact-main1-head">Our <span> Address </span> </div>
-                <div class="col-lg-12">
-                    <img src="images/border.png" class="main1-head_border">
+                <div class="col-12 text-center contact-main1-head mt-5 fs-2 fw-bold">Our <span> Address </span> </div>
+                <div class="col-12">
+                    <img src="images/border.png" class="main1-head_border m-auto d-block mt-2">
                 </div>
             </div>
             <div class="row con-address mb-5">

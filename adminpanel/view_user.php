@@ -90,11 +90,6 @@
 							<td>Birth Day</td>
 							<td>E-Mail</td>
 							<td>Contact No.</td>
-							<td>User Profession</td>
-							<td>Website</td>
-							<td>Twitter</td>
-							<td>Instagram</td>
-							<td>Facebook</td>
 							<td>Gender</td>
 						</tr>
 						<!-- SELECT QUERY START -->
@@ -119,11 +114,6 @@
 							<td><?php echo $fetch['user_birthday']; ?></td>
 							<td><?php echo $fetch['user_email']; ?></td>
 							<td><?php echo $fetch['user_contact']; ?></td>
-							<td><?php echo $fetch['user_profession']; ?></td>
-							<td><?php echo $fetch['user_website']; ?></td>
-							<td><?php echo $fetch['user_twitter']; ?></td>
-							<td><?php echo $fetch['user_instagram']; ?></td>
-							<td><?php echo $fetch['user_facebook']; ?></td>
 							<td>
 								<?php
 									if ($fetch['user_gender']==1) {
