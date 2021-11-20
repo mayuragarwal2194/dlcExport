@@ -109,7 +109,7 @@
         </div> -->
     </div>
 </div>
-<div class="container-fluid footer-bottom">
+<!-- <div class="container-fluid footer-bottom">
     <div class="container">
         <div class="row">
             <div class=" col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 footer-bottom-left text-start">
@@ -118,4 +118,4 @@
                 Design and Developed by Mayur Agarwal</div>
         </div>
     </div>
-</div>
+</div> -->

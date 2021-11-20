@@ -33,9 +33,9 @@
     <div class="container-fluid main1 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center main1-head">ABOUT US</div>
+                <div class="col-12 text-center main1-head mt-5 fs-2 fw-bold">ABOUT US</div>
                 <div class="col-12">
-                    <img src="images/border.png" class="main1-head_border">
+                    <img src="images/border.png" class="main1-head_border m-auto d-block mt-2">
                 </div>
             </div>
             <div class="row mt-5">
@@ -47,16 +47,15 @@
                     ?>
                     <div class="row mb-4">
                         <div
-                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main1-left-head mb-3">
+                            class="col-12 main1-left-head fs-5 mb-2 fw-bold">
                             <?php echo $fetch['about_title']; ?>
                         </div>
-                        <div
-                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main2-left-matter">
+                        <div class="col-12 main2-left-matter">
                             <div class="row ml-2">
-                                <div class="main1-left-matter-icon">
-                                    <img src="images/like.jpg" width="38" height="35">
+                                <div class="main1-left-matter-icon border border-2 mt-3 d-flex justify-content-center align-items-center rounded-circle bg-white">
+                                    <img src="images/like.png" width="38" height="35">
                                 </div>
-                                <div class="main1-left-matter-content">
+                                <div class="main1-left-matter-content lh-base">
                                     <p>
                                         <?php echo $fetch['about_description']; ?>
                                     </p>
@@ -73,16 +72,15 @@
                     ?>
                     <div class="row mb-4">
                         <div
-                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main1-left-head mb-3">
+                            class="col-12 main1-left-head fs-5 mb-2 fw-bold">
                             <?php echo $fetch['about_title']; ?>
                         </div>
-                        <div
-                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main2-left-matter">
+                        <div class="col-12 main2-left-matter">
                             <div class="row ml-2">
-                                <div class="main1-left-matter-icon">
-                                    <img src="images/service.jpg" width="38" height="35">
+                                <div class="main1-left-matter-icon border border-2 mt-3 d-flex justify-content-center align-items-center rounded-circle bg-white">
+                                    <img src="images/service.png" width="38" height="35">
                                 </div>
-                                <div class="main1-left-matter-content">
+                                <div class="main1-left-matter-content lh-base">
                                     <p>
                                         <?php echo $fetch['about_description']; ?>
                                     </p>
@@ -99,16 +97,16 @@
                     ?>
                     <div class="row mb-4">
                         <div
-                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main1-left-head mb-3">
+                            class="col-12 main1-left-head fs-5 mb-2 fw-bold">
                             <?php echo $fetch['about_title']; ?>
                         </div>
                         <div
-                            class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 main2-left-matter">
+                            class="col-12 main2-left-matter">
                             <div class="row ml-2">
-                                <div class="main1-left-matter-icon">
-                                    <img src="images/quality.jpg" width="38" height="35">
+                                <div class="main1-left-matter-icon border border-2 mt-3 d-flex justify-content-center align-items-center rounded-circle bg-white">
+                                    <img src="images/quality.png" width="38" height="35">
                                 </div>
-                                <div class="main1-left-matter-content">
+                                <div class="main1-left-matter-content lh-base">
                                     <p>
                                         <?php echo $fetch['about_description']; ?>
                                     </p>
@@ -119,9 +117,9 @@
                     </div>
                     <?php } ?>
                 </div>
-                <div class="col-12 col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5">
+                <div class="col-12 col-md-5 col-lg-5 d-flex justify-content-end position-relative mt-3">
                     <div class="main1-right">
-                        <div class="main1-right-image">
+                        <div class="main1-right-image position-absolute">
                             <img src="images/why_us2.jpg">
                         </div>
                     </div>
