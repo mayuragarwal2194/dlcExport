@@ -32,7 +32,7 @@
     <div class="clear"></div>
     <div class="container-fluid news-line">
         <div class="marquee">
-            <div class="marquee__item">
+            <marquee behavior="scroll" direction="left" scrollamount="6" onmouseover="this.stop();" onmouseout="this.start();">
                 <?php 
                     $selnews="SELECT * FROM add_news WHERE news_status='1'";
                     $exenews=mysqli_query($con,$selnews);
@@ -43,8 +43,8 @@
                 </a>
                 <span class="marquee__seperator">+++</span>
                 <?php } ?>
-            </div>
-            <div class="marquee__item">
+            </marquee>
+            <!-- <div class="marquee__item">
                 <?php 
                     $selnews="SELECT * FROM add_news WHERE news_status='1'";
                     $exenews=mysqli_query($con,$selnews);
@@ -55,7 +55,7 @@
                 </a>
                 <span class="marquee__seperator">+++</span>
                 <?php } ?>
-            </div>
+            </div> -->
         </div>
     </div>
     <div class="container-fluid" style="margin: 0px; padding: 0px;">
@@ -116,7 +116,7 @@
     <div class="container-fluid main1 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center main1-head mt-5 fs-2 fw-bold">WHY CHOOSE US</div>
+                <div class="col-12 text-center main1-head dlc-green mt-5 fs-2 fw-bold">WHY CHOOSE US</div>
                 <div class="col-12">
                     <img src="images/border.png" class="main1-head_border m-auto d-block mt-2">
                 </div>

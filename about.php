@@ -33,7 +33,7 @@
     <div class="container-fluid main1 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 text-center main1-head mt-5 fs-2 fw-bold">ABOUT US</div>
+                <div class="col-12 text-center main1-head dlc-green mt-5 fs-2 fw-bold">ABOUT US</div>
                 <div class="col-12">
                     <img src="images/border.png" class="main1-head_border m-auto d-block mt-2">
                 </div>

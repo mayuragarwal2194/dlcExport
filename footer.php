@@ -23,19 +23,19 @@
                     <div class="footer-head-border mb-4 mt-2"></div>
                 </div>
                 <div class="footer-matter">
-                    <div class="social-icons mb-4">
-                        <div class="social-icons1">
-                            <a class="text-decoration-none" href="https://twitter.com/?lang=en">
+                    <div class="social-icons mb-4 d-flex">
+                        <div class="social-icons1 rounded-circle d-flex align-items-center justify-content-center">
+                            <a class="text-decoration-none text-white" href="https://twitter.com/?lang=en">
                                 <i class="fab fa-twitter"></i>
                             </a>
                         </div>
-                        <div class="social-icons1">
-                            <a class="text-decoration-none" href="https://www.facebook.com/dlc.craft.9">
+                        <div class="social-icons1 rounded-circle d-flex align-items-center justify-content-center">
+                            <a class="text-decoration-none text-white" href="https://www.facebook.com/dlc.craft.9">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </div>
-                        <div class="social-icons1">
-                            <a class="text-decoration-none" href="https://instagram.com/dlc_handicraft?utm_medium=copy_link">
+                        <div class="social-icons1 rounded-circle d-flex align-items-center justify-content-center">
+                            <a class="text-decoration-none text-white" href="https://instagram.com/dlc_handicraft?utm_medium=copy_link">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>

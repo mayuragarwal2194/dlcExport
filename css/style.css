@@ -1,10 +1,18 @@
+/* general css */
 *{
 	margin: 0px;
 	padding: 0px;	
 }
+.dlc-green{
+	color: #149157;
+}
+.fw-500{
+	font-weight: 500;
+}
 .clear{
 	clear: both;
 }
+
 /* CSS FOR HOME PAGE -start */
 /* css for navbar */
 .navbar{
@@ -17,16 +25,17 @@
 	width: 38px;
 	height: 40px;
 }
+.navbar-toggler:focus{
+	box-shadow: none;
+}
 .active {
-    color: #149157 !important;
+	color: #149157 !important;
 }
-.nav-link:hover{
-	text-decoration: underline;
-	padding-top: 10px;
+.nav-link, .dropdown-item{
+	transition: 0.2s;
 }
-.dropdown-item:hover{
-	text-decoration: underline;
-	padding-top: 10px;
+.nav-link:hover, .dropdown-item:hover{
+	color: #149157 !important;
 }
 .carousel-item{
 	height: 450px;
@@ -157,6 +166,8 @@
 	height: 170px;
 	font-size: 12px;
 }
+
+/* css for footer started */
 .footer{
 	clear: both;
 	/* height: 420px; */
@@ -170,9 +181,9 @@
 }
 .footer-head-border{
 	width: 65px;
-    border-top: 1px solid #149157;
-    /* margin-bottom: 25px; */
-    /* margin-top: 10px; */
+	border-top: 1px solid #149157;
+	/* margin-bottom: 25px; */
+	/* margin-top: 10px; */
 }
 .footer-matter{
 	color: #a1a1a1;
@@ -196,14 +207,14 @@
 .social-icons1{
 	width: 38px;
 	height: 38px;
-	color: white;
+	/* color: white; */
 	font-size: 25px;
 	border:1px solid white;
-	border-radius: 100%;
-	display: flex;
+	/* border-radius: 100%; */
+	/* display: flex;
 	align-items: center;
-	justify-content: center; 
-	float: left;
+	justify-content: center;  */
+	/* float: left; */
 	margin-right: 20px;
 }
 .footer-contact-icon{
@@ -656,7 +667,7 @@
 	text-align: left;
 }
 .social-icons a{
-	color: white;
+	/* color: white; */
 }
 .favourate_card a{
 	color:black;
@@ -805,27 +816,6 @@
 }
  .marquee__item {
 	 display: inline-block;
-	 will-change: transform;
-	 animation: marquee 10s linear infinite;
-}
- @keyframes marquee {
-	 from {
-		transform: translateX(100%);
-	}
-	 to {
-		 transform: translateX(-100%);
-	}
-}
-@keyframes marquee2 {
-	from {
-	  transform: translateX(0%);
-	}
-	to {
-	  transform: translateX(-200%);
-	}
-  }
-.marquee {
-	
 }
 .news-line{
 	padding: 0px;

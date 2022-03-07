@@ -49,7 +49,7 @@
                 <div class="loginbox mb-5">
                     <div class="mt-5 mb-5 loginbox-logo">
                         <a class="navbar-brand">
-                            <img src="images/logo.png" width="200px">
+                            <img src="images/dlclogo.png" width="75px" alt="Logo">
                         </a>
                     </div>
                     <div class="text-danger text-center">
